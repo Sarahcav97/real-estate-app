@@ -45,6 +45,7 @@ function Navbar() {
 				</div>
 			</div>
 		</nav>
+		console.log('working')
 	);
 }
 export default Navbar;

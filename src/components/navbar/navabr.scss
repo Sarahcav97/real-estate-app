@@ -91,11 +91,17 @@ nav {
 			color: white;
 			height: 100vh;
 			width: 50%;
+			transition: all 1s ease;
+			align-items: center;
+			justify-content: center;
 
 			&.active {
 				right: 0;
 			}
 
+			@include sm {
+				display: initial;
+			}
 		}
 	}
 }

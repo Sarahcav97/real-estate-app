@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './navabr.scss';
+import './navbar.scss';
 function Navbar() {
 	const [open, setOpen] = useState(false);
 	return (
